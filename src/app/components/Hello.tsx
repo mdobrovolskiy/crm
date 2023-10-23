@@ -54,7 +54,7 @@ const valueFormatter = (number: number) =>
 export default function Hello() {
     const [selectedIndex, setSelectedIndex] = useState(0)
     return (
-        <Card>
+        <Card className="mt-10">
             <Text>Activity Summary</Text>
             <Metric className="mt-2">300.2 hours</Metric>
             <TabGroup index={selectedIndex} onIndexChange={setSelectedIndex}>

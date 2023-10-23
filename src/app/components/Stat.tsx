@@ -40,7 +40,7 @@ const valueFormatter = function (number: number) {
 
 export default function Stat() {
     return (
-        <Card>
+        <Card className="mt-10">
             <Title>Newsletter revenue over time (USD)</Title>
             <AreaChart
                 className="h-72 mt-4"
